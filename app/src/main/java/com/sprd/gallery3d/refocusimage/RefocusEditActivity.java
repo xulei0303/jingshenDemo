@@ -27,14 +27,11 @@ import android.widget.ProgressBar;
 import android.widget.SeekBar;
 import android.widget.TextView;
 import android.widget.Toast;
-
 import com.sprd.gallery3d.refocusimage.RefocusImageView.RefocusViewCallback;
-
 import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 import java.lang.ref.WeakReference;
-
 
 public class RefocusEditActivity extends Activity implements Handler.Callback, RefocusViewCallback {
     private static final String TAG = "RefocusEditActivity";
