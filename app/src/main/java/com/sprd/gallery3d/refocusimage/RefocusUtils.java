@@ -31,7 +31,6 @@ import java.util.Date;
 public class RefocusUtils {
     private static final String TAG = "RefocusUtils";
     public static final String DEBUG_ROOT_PATH = "sdcard/refocus";
-
     public static byte[] intToBytes(int value) {
         byte[] src = new byte[4];
         src[3] = (byte) ((value >> 24) & 0xFF);
