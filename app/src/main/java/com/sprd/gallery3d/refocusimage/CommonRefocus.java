@@ -11,8 +11,8 @@ public abstract class CommonRefocus {
     private static final String TAG = "CommonRefocus";
     private static final String BOKEH_FLAG = "BOKE";
     private static final String BLUR_FLAG = "BLUR";
-    protected long mNativeContext; // accessed by native methods
-    protected long mNativeDstBuffer; // accessed by native methods
+    protected long mNativeContext; // accessed by native methods.
+    protected long mNativeDstBuffer; // accessed by native methods.
     protected static boolean ARC_ENABLE = false;
     protected static boolean SBS_SR_ENABLE = false;
     protected static boolean NEW_JPEG_DATA = false;
