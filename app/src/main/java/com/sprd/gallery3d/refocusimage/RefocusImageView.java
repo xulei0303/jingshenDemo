@@ -12,7 +12,6 @@ import android.util.AttributeSet;
 import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
-
 import gallery3d.sprd.com.refocus.R;
 
 public class RefocusImageView extends View {
